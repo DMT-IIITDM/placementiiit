@@ -1,0 +1,194 @@
+
+bighead{
+	font-size: 1.3em;
+}
+
+
+#row1{
+	background-color: #1D3557; 00171F
+} 
+
+#left-title{
+	color:#fff;
+	font-size: 1.4em;
+	margin-top: 1%;
+}
+
+.row{
+	margin:0 auto;
+	font-family: Poppins;
+	font-weight: 100;
+}
+
+video{
+	width:100%;
+
+}
+.icon-bar{
+	background-color: #fff;
+}
+
+#navmenu-toggle{
+	border:#fff 1px solid;
+}
+
+#myNavbar{
+	margin-top:1%;
+}
+.nav-links{
+	color:#fff;
+	font-size: 0.9em;
+	border-bottom: 1px solid #fff;
+
+}
+.nav{
+	width:60%;
+}
+.nav-li{
+	margin-left:3%;
+
+}
+.navbar-nav>li>a:hover{
+	background-color:transparent;
+	border-bottom:1px solid #00A8E8;
+	color:#00A8E8;
+	
+}
+#bgvid{
+	z-index: -10;
+}
+
+
+#row3,#row4,#row7,#row8,#row11,#row12{
+	background-color:#EDF2F4;
+}
+
+
+
+.title{
+	font-family: Poppins;
+	font-size: 3.0em;
+	margin-top:4%;
+	margin-bottom: 5%; 
+	text-align: center;
+	border-bottom:1px solid #000;
+}
+
+#row4>.para{
+	font-size: 1.1em;
+	text-align: left;
+	margin-bottom: 5%;
+
+}
+
+.para > img{
+	width:100%;
+	height:auto;
+}
+
+@media (max-width:767px){
+#director{
+	margin-top:5%;
+	position: relative;
+	margin-left:10%;
+	max-width:70%;
+}
+}
+
+
+
+#row5,#row6
+{
+
+	background-color: #2B2D42;
+}
+
+#row5>.title{
+	color:#fff;
+	border-bottom-color: #fff;
+}
+
+.stats{
+	color:#fff;
+	font-size: 1.6em;
+	text-align: left;
+	margin-bottom: 5%;
+	font-family: Source Sans Pro;
+}
+
+
+.count{
+	font-size: 2em;
+}
+
+#row8>.para{
+	font-size: 1.2em;
+	text-align: left;
+	margin-bottom: 5%;
+
+}
+
+#row9,#row10{
+	background-color: #011627;
+	color:#fff;
+}
+#row9>.title{
+	color:#fff;
+	border-bottom-color: #fff;
+}
+
+
+
+.company-show .mover{
+  
+  background-color: #fff;
+
+}
+
+.mover img{
+	
+	width:50%;
+	height: auto;
+}
+
+#row12 > .para{
+	font-size: 1.2em;
+	
+	margin-bottom: 5%;
+
+}
+
+.para-head{
+	font-size: 1.5em;
+	text-align: center;
+	margin-bottom: 2%;
+}
+
+.sub-para-padding{
+	padding-left: 13%;
+}
+
+.sub-para{
+	font-size: 0.9em;
+}
+
+.para-left{
+
+	text-align: left;
+}
+
+.para-center{
+	text-align:center; 
+}
+
+
+@media (min-width: 1207px){
+#row12 > .para {
+
+	min-height:50%;
+}
+
+.right-border{
+	border-right: 1px solid #000; 
+}
+}

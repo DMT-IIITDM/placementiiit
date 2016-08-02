@@ -108,6 +108,7 @@ video{
 	border-bottom-color: #fff;
 }
 
+
 .stats{
 	color:#fff;
 	font-size: 1.6em;
@@ -116,6 +117,13 @@ video{
 	font-family: Source Sans Pro;
 }
 
+@media (max-width:767px){
+
+.stats{
+	text-align: center;
+}
+
+}
 
 .count{
 	font-size: 2em;
@@ -138,6 +146,24 @@ video{
 }
 
 
+.item > img {
+
+	width: 11%;
+	margin: auto;
+
+}
+
+
+#row10{
+
+	height: 35%;
+}
+
+.item{
+
+	margin-bottom: 5%;
+}
+
 
 .company-show .mover{
   
@@ -146,7 +172,7 @@ video{
 }
 
 .mover img{
-	
+
 	width:50%;
 	height: auto;
 }
@@ -191,4 +217,28 @@ video{
 .right-border{
 	border-right: 1px solid #000; 
 }
+}
+
+#row13,#row14{
+	color: #fff;
+	background-color: #224870;
+}
+
+#row13 > .title {
+	margin-bottom: 0;
+	border-color: #fff;
+}
+
+#map{
+
+	margin-top: 5%;
+	margin-bottom: 5%;
+
+	width: 100%;
+}
+
+
+
+.inline{
+	display: inline;
 }
